@@ -5,6 +5,9 @@ dependencies:
   - python=3.11
   - pip
   - pip:
+      - ipykernel
+      - ipywidgets
+      - numpy<2
       - langchain==0.3.25
       - langchain-community==0.3.24
       - sentence-transformers==4.1.0
